@@ -38,6 +38,7 @@ public class InputFrame extends JFrame {
         inPanel.setOpaque(false);
         
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
         this.add(inPanel);
     }
   

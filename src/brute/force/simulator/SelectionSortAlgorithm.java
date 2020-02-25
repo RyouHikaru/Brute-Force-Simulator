@@ -61,6 +61,7 @@ public class SelectionSortAlgorithm extends JFrame{
         this.setLayout(null);
         this.setSize(550, 600);
         this.setVisible(true);
+        this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
