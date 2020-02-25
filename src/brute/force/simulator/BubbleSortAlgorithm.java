@@ -47,6 +47,8 @@ public class BubbleSortAlgorithm extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 if (e.getSource() == returnButton) {
                    new MainFrame();
+                   swapCount = 0;
+                   swapTotalCount = 0;
                    dispose();
                 }
             }  
